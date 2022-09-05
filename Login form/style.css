@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modelform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.actionbtns {
+    width: 80%;
+    margin: 2em;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15)0px 2px 8px;
+}
+
+.movebtn {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    margin: 2px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    border-color: white;
+    font-size: 00.8em;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.1)0px 4px 12px;
+    transform: translateX(0%);
+}
+
+.actionbtn {
+    padding: 1em;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.rightbtn {
+    transform: translateX(98%);
+    transform: all 0.2s ease-in-out;
+}
+
+
+/* .userform {
+    background: gray;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.inputgrup {
+    width: 300px;
+    margin: 0.8em 0;
+    background: rgb(245, 245, 245);
+}
+
+.inputgrup input {
+    width: 100%;
+    padding: 1em 1.5em;
+    background-color: transparent;
+}
+
+.inputgrup input:focus {
+    outline: none;
+}
+
+.submitbtn {
+    width: 150px;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: white;
+    box-shadow: rgb(0, 0, 0.12) 0px 1px 3px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.submitbtn:hover {
+    background-color: royalblue;
+    transition: all 0.3s ease-in-out;
+}
+
+form {
+    display: none;
+}
+
+.signupform {
+    display: block;
+}
+
+.loginform {
+    display: block;
+}

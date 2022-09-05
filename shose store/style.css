@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: var(--main-bg-color);
+    border: 2px solid red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+    margin-left: 35%;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 6px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+}
+
+
+/* container */
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container img {
+    width: 100vw;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+
+/* image section */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.main-card {
+    display: flex;
+    background: gainsboro;
+    width: 100%;
+}
+
+.card-item img {
+    width: 40%;
+    height: 125px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.lines {
+    width: 18vw;
+    margin: 10px 10px;
+    text-align-last: center;
+}

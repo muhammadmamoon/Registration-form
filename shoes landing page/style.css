@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("pic.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.navebar {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    width: 100%;
+    height: 13%;
+}
+
+.banner img {
+    width: 8%;
+    height: 78%;
+    margin-left: 1%;
+    padding: 6px;
+    border-radius: 17px;
+}
+
+.navebar ul {
+    float: right;
+    margin-right: 2%;
+}
+
+.navebar ul li {
+    list-style: none;
+    margin: 0 6px;
+    padding: 0 12px;
+    display: inline-block;
+    line-height: 69px;
+}
+
+.navebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.navebar ul li a.active,
+.navebar ul li a:hover {
+    background: #cc0000;
+    border-radius: 5px;
+}
+
+.center {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 900px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 800px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.center .buttons {
+    margin: 30px 338px;
+}
+
+button {
+    height: 47px;
+    width: 48%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border: 2px solid #cc0000;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.buttons button:hover {
+    background: #27cc9a;
+}
